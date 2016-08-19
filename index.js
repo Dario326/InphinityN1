@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const port = 8090;
 const app = express();
 
-const mongooseUrl = "mongodb://localhost/inphinityN1";
+const mongooseUrl = "mongodb://dsum:User1@ds139735.mlab.com:39735/devmoutain_alumni";
 
 app.use( bodyParser.json() );
 app.use(express.static(`${__dirname}/public`));
