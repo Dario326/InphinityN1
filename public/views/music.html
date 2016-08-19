@@ -1,0 +1,45 @@
+<div class="container-fluid" >
+<navbar1></navbar1>
+<div class="music-page jumbotron">
+   <div class="jumbo-words">
+    <h2 class="animated shake">Music</h2>
+    <blockquote>“One good thing about music, when it hits you, you feel no pain.”</blockquote>
+    <p>-Bob Marley</p>
+</div>
+</div>
+<div class="container content">
+    <p>If you are unsure how to get to the next level in the music industry, I can help you make a realistic game plan.  I'll analyze every aspect of your career, music, brand and current reach in order to create a custom plan of attack. <span>Check out our packages below</span>.</p>
+</div>
+<div class="container" class="animated shake" >
+   <h2 class="packages">Packages</h2>
+    <div class="row cat">
+       <div class="col-sm-4" ng-click="silver()" >      
+          <h3>Silver</h3>
+           <img  class="img-circle img-thumbnail" src="./media/bullion-932218_1920.jpg" alt="music">           
+               <p>Click for Details</p>
+               </div>
+           
+       
+       <div class="col-md-4" ng-click="gold()">
+           <h3 >Gold</h3>
+           <img class="img-circle img-thumbnail" src="./media/gold-513062_1920.jpg" alt="Gold Package">
+           <p >Click for Details</p>
+       </div>
+       <div class="col-md-4" ng-click="diamond()">
+           <h3>Diamond</h3>
+            <img class="img-circle img-thumbnail" src="./media/diamond-123338_1280.jpg" alt="Diamond Package">
+           <p >Click for Details</p>
+       </div> 
+    </div>
+<!--    Packages Begin-->
+    <div ng-show="showSilverPackage">
+        <img class="img-thumbnail" src="./media/silver-package.JPG" alt="silver package">
+    </div>
+    <div ng-show="goldPackage">
+        <img class="img-thumbnail" src="./media/gold-package.JPG" alt="gold package">
+    </div>
+    <div ng-show="diamondPackage">
+        <img class="img-thumbnail" src="./media/diamond-package.JPG" alt="diamond package">
+    </div>
+</div>
+</div>

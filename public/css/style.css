@@ -1,0 +1,197 @@
+body, h1, h2, h3, h4, h5, div, nav, navbar {
+    padding: 0;
+    margin: 0;
+    
+}
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+.home-page {
+    margin: 0;
+    height: 500px;
+    background-image: url(../media/turntable-1149496_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    color: red;
+    
+}
+.home-page p {
+    position: relative;
+    top: 35%;
+    text-align: center;
+    font-size: 500%;
+}
+
+
+.cat img {
+    max-width: 50%;
+    max-height: 50%;        
+}
+
+.cat {
+    margin-top: 5%; 
+    margin-left: 9%;
+}
+.cat h3 {
+    margin-bottom: 5%;
+    font-size: 300%;
+    color: red;
+}
+.cat p {
+    font-size: 150%;
+    width: 50%;
+}
+.music {
+    color: red;
+}
+.about {
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+    height: 1000px;
+    background-image: url(../media/headphones-690685.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.about h1 {
+    color: white;
+    text-shadow: 5px 5px red;
+    text-align: center;
+    font-size: 500%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.about .container p {
+    margin-top: 15%;
+    font-size: 30px;
+    color: white;
+    line-height: 60px;
+}
+a span img{
+    padding-right: 5px;;
+}
+.contact-heading {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.contact-heading h1 {
+    color: white;
+    margin-bottom: 2%;
+    font-size: 400%;
+}
+.contact-heading p {
+    font-size: 200%;
+}
+.contact {
+    margin-top: 10%;
+    background-color: grey;
+    border-radius: 20px;
+}
+.text-muted {
+    color: white;
+}
+
+.music-page {
+    height: 500px;
+    background-image: url(../media/guitar-1031192_1920.jpg);
+    color: red;
+}
+.modeling-page {
+    height: 500px;
+    background-image: url(../media/photographer-234907_1280.jpg);
+    background-size: cover;
+    color: red;
+}
+.brand-page {
+    height: 500px;
+    background-image: url(../media/mercedes-1568085_1920.jpg);
+    background-size: cover;
+    color: red;
+}
+.jumbo-words {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    z-index: 1000;
+}
+.jumbo-words blockquote {
+    font-size: 300%;
+}
+.jumbo-words h2 {
+    color: white;
+    text-shadow: 5px 5px red;
+    text-align: center;
+    font-size: 500%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.content p {
+    font-size: 200%;
+}
+.content span {
+    color: red;
+}
+.img-thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+.packages {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 400%;
+    color: red;
+    letter-spacing: 2px;
+}
