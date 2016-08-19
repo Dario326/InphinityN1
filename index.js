@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const passport = require("passport");
 const mongoose = require("mongoose");
-const port = 8090;
+const port = Number(process.env.PORT || 3000);
 const app = express();
 
 const mongooseUrl = "mongodb://dsum:User1@ds139735.mlab.com:39735/devmoutain_alumni";
