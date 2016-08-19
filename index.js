@@ -1,5 +1,5 @@
 const express = require("express");
-const { json } = require("body-parser");
+const bodyParser = require("body-parser");
 const passport = require("passport");
 const mongoose = require("mongoose");
 const port = 8090;
@@ -7,7 +7,7 @@ const app = express();
 
 const mongooseUrl = "mongodb://localhost/inphinityN1";
 
-app.use( json() );
+app.use( bodyParser.json() );
 app.use(express.static(`${__dirname}/public`));
 
 passport.serializeUser(function(user, done) {
